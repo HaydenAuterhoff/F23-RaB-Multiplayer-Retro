@@ -2,15 +2,15 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/VARLab Multiplayer (Fusion)/[Ll]ibrary/
-/VARLab Multiplayer (Fusion)/[Tt]emp/
-/VARLab Multiplayer (Fusion)/[Oo]bj/
-/VARLab Multiplayer (Fusion)/[Bb]uild/
-/VARLab Multiplayer (Fusion)/[Bb]uilds/
-/VARLab Multiplayer (Fusion)/[Ll]ogs/
-/VARLab Multiplayer (Fusion)/[Ss]erver[Dd]ata/
-/VARLab Multiplayer (Fusion)/[Uu]ser[Ss]ettings/
-/VARLab Multiplayer (Fusion)/[Cc]ode[Cc]overage/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Ll]ibrary/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Tt]emp/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Oo]bj/
+/VARLab Multiplayer ((Roll-a-ball - Fusion)/[Bb]uild/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Bb]uilds/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Ll]ogs/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Ss]erver[Dd]ata/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Uu]ser[Ss]ettings/
+/VARLab Multiplayer (Roll-a-ball - Fusion)/[Cc]ode[Cc]overage/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
