@@ -52,11 +52,23 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Pickup"))
+        var pickupHander = other.gameObject.GetComponent<PickUpHandler_Network>();
+        if (pickupHander != null)
         {
-            other.gameObject.SetActive(false);
+            pickupHander.pickup.SetActive(false);
             _count++;
             SetCountText();
         }
     }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    var pickupHander = other.gameObject.GetComponent<PickUpHandler_Network>();
+    //    if (other.gameObject.CompareTag("Pickup"))
+    //    {
+    //        other.gameObject.SetActive(false);
+    //        _count++;
+    //        SetCountText();
+    //    }
+    //}
 }
